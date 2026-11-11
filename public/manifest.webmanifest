@@ -1,0 +1,16 @@
+{
+  "name": "Bocado",
+  "short_name": "Bocado",
+  "description": "Tu alimentación: calorías, macros, agua, peso y ayuno",
+  "lang": "es-CL",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F3F5F0",
+  "theme_color": "#F3F5F0",
+  "icons": [
+    { "src": "icono-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icono-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icono-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

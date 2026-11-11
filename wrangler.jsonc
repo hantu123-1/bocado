@@ -1,0 +1,24 @@
+// Configuración de Bocado en Cloudflare Workers (plan gratuito).
+{
+  "name": "bocado",
+  "main": "src/index.js",
+  "compatibility_date": "2025-10-01",
+
+  // La app que ves en el celular (HTML, CSS, JS, íconos y base de alimentos)
+  "assets": { "directory": "./public" },
+
+  // Base de datos. El database_id se obtiene con: npx wrangler d1 create bocado
+  "d1_databases": [
+    { "binding": "DB", "database_name": "bocado", "database_id": "PENDIENTE-pegar-id-de-d1", "migrations_dir": "migrations" }
+  ],
+
+  // Recordatorios: se revisan cada 5 minutos
+  "triggers": { "crons": ["*/5 * * * *"] },
+
+  "vars": {
+    // Contacto que exige el servicio de notificaciones de Apple/Google:
+    // la dirección de la app una vez publicada (ver LEEME.md)
+    "VAPID_SUBJECT": "https://bocado.example"
+  }
+  // Secretos (no van aquí): APP_CLAVE, VAPID_PUBLIC, VAPID_PRIVATE. Ver LEEME.md.
+}

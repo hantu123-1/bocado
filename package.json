@@ -1,0 +1,25 @@
+{
+  "name": "bocado",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "claves": "node scripts/generar-claves.mjs",
+    "db:local": "wrangler d1 migrations apply bocado --local",
+    "db:remota": "wrangler d1 migrations apply bocado --remote",
+    "dev": "wrangler dev --ip 0.0.0.0",
+    "subir-claves": "node scripts/subir-claves.mjs",
+    "publicar": "wrangler deploy",
+    "alimentos": "node scripts/generar-alimentos.mjs",
+    "vendor": "node scripts/copiar-vendor.mjs",
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "devDependencies": {
+    "barcode-detector": "3.2.3",
+    "http_ece": "^1.2.1",
+    "wrangler": "^4.156.0"
+  },
+  "allowScripts": {
+    "workerd@1.20261023.1": true,
+    "esbuild@0.28.2": true
+  }
+}

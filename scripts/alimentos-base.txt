@@ -1,0 +1,374 @@
+# Base de alimentos de Bocado.
+# Cada línea: Nombre; sinónimos | descripción exacta en USDA SR Legacy | porciones
+# Porciones (separadas por ;): etiqueta=referencia
+#   referencia = gramos (ej. 100), ml:N (mililitros, usa la densidad del USDA),
+#   o el inicio del texto de una porción del USDA (ej. medium, cup, tbsp), con *factor opcional.
+# "## Grupo" cambia el grupo de las líneas siguientes.
+# "(aprox.)" en el nombre = no existe en el USDA y se usa el alimento más parecido.
+
+## Frutas
+Plátano; banana, banano | Bananas, raw | 1 unidad mediana=medium; 1 unidad chica=small; 1 unidad grande=large
+Manzana; manzana roja, manzana verde | Apples, raw, with skin (Includes foods for USDA's Food Distribution Program) | 1 unidad mediana=medium; 1 unidad chica=small; 1 unidad grande=large
+Pera | Pears, raw | 1 unidad mediana=medium; 1 unidad chica=small
+Naranja | Oranges, raw, all commercial varieties | 1 unidad mediana=fruit
+Mandarina; clementina | Tangerines, (mandarin oranges), raw | 1 unidad mediana=medium; 1 unidad chica=small
+Uva; uvas | Grapes, red or green (European type, such as Thompson seedless), raw | 1 taza=cup; 10 uvas=grape*10
+Frutilla; fresa, frutillas | Strawberries, raw | 1 taza=cup, whole; 1 frutilla mediana=medium
+Durazno; melocotón | Peaches, yellow, raw | 1 unidad mediana=medium; 1 unidad grande=large
+Damasco; albaricoque | Apricots, raw | 1 unidad=apricot
+Ciruela | Plums, raw | 1 unidad=fruit
+Kiwi | Kiwifruit, green, raw | 1 unidad=fruit
+Piña; ananá | Pineapple, raw, all varieties | 1 taza en trozos=cup, chunks; 1 rodaja=slice
+Mango | Mangos, raw | 1 unidad=fruit; 1 taza en trozos=cup
+Sandía | Watermelon, raw | 1 taza en cubos=cup, diced; 1 tajada=wedge
+Melón calameño; melón tuna, cantalupo | Melons, cantaloupe, raw | 1 taza en cubos=cup, cubes; 1 tajada=wedge
+Melón; melón verde, melón blanco | Melons, honeydew, raw | 1 taza en cubos=cup, diced; 1 tajada=wedge
+Palta; aguacate, palta hass | Avocados, raw, California | 1 palta=fruit; 1/2 palta=fruit*0.5; 1 cucharada=ml:15
+Limón | Lemons, raw, without peel | 1 unidad=fruit
+Jugo de limón | Lemon juice, raw | 1 cucharada=ml:15; 1 taza=cup
+Pomelo | Grapefruit, raw, pink and red, all areas | 1/2 pomelo=fruit*0.5
+Cereza; cerezas, guinda | Cherries, sweet, raw | 1 taza=cup, with pits; 10 cerezas=cherry*10
+Arándano; arándanos | Blueberries, raw | 1 taza=cup
+Frambuesa; frambuesas | Raspberries, raw | 1 taza=cup
+Mora; moras, zarzamora | Blackberries, raw | 1 taza=cup
+Papaya | Papayas, raw | 1 taza en cubos=cup
+Chirimoya | Cherimoya, raw | 1 unidad=fruit; 1 taza=cup
+Membrillo | Quinces, raw | 1 unidad=fruit
+Higo | Figs, raw | 1 unidad mediana=medium
+Caqui; persimón | Persimmons, japanese, raw | 1 unidad=fruit
+Granada | Pomegranates, raw | 1 unidad=pomegranate
+Maracuyá; granadilla, fruta de la pasión | Passion-fruit, (granadilla), purple, raw | 1 unidad=fruit
+Tuna (fruta); higo chumbo | Prickly pears, raw | 1 unidad=fruit
+Coco fresco | Nuts, coconut meat, raw | 1 taza rallado=cup, shredded
+Pasas; pasas rubias, pasas morenas | Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program) | 1 cucharada=ml:15; 1 caja chica=small box
+Dátiles | Dates, medjool | 1 unidad=date
+Ciruelas secas; ciruela pasa | Plums, dried (prunes), uncooked | 1 unidad=prune
+Huesillos y orejones (aprox.); damasco seco, orejones, huesillo | Apricots, dried, sulfured, uncooked | 1 unidad=half
+Arándano deshidratado | Cranberries, dried, sweetened (Includes foods for USDA's Food Distribution Program) | 1/4 taza=cup*0.25
+Jugo de naranja natural | Orange juice, raw (Includes foods for USDA's Food Distribution Program) | 1 vaso (200 ml)=ml:200
+Duraznos en conserva; duraznos en almíbar | Peaches, canned, heavy syrup pack, solids and liquids | 1 mitad=half; 1 taza=cup
+Coctel de frutas en conserva | Fruit cocktail, (peach and pineapple and pear and grape and cherry), canned, heavy syrup, solids and liquids | 1 taza=cup
+
+## Verduras
+Tomate | Tomatoes, red, ripe, raw, year round average | 1 unidad mediana=medium; 1 unidad grande=large; 1 taza picado=cup, chopped
+Tomate cherry | Tomatoes, red, ripe, raw, year round average | 1 tomate cherry=cherry
+Lechuga; lechuga hoja verde | Lettuce, green leaf, raw | 1 taza picada=cup, shredded; 1 hoja=leaf
+Lechuga costina; lechuga romana | Lettuce, cos or romaine, raw | 1 taza picada=cup, shredded; 1 hoja=leaf
+Lechuga escarola; lechuga iceberg | Lettuce, iceberg (includes crisphead types), raw | 1 taza picada=cup, shredded; 1 hoja=leaf
+Zanahoria cruda | Carrots, raw | 1 unidad mediana=medium; 1 taza rallada=cup, grated
+Zanahoria cocida | Carrots, cooked, boiled, drained, without salt | 1 taza en rodajas=cup
+Cebolla | Onions, raw | 1 unidad mediana=medium; 1 taza picada=cup, chopped; 1 cucharada picada=tbsp
+Cebollín; cebolla de verdeo | Onions, spring or scallions (includes tops and bulb), raw | 1 tallo=medium; 1 cucharada picada=tbsp
+Pepino | Cucumber, with peel, raw | 1/2 pepino=cucumber*0.5; 1 taza en rodajas=cup, slices
+Zapallo italiano crudo; zucchini, calabacín | Squash, summer, zucchini, includes skin, raw | 1 unidad mediana=medium; 1 taza picado=cup, chopped
+Zapallo italiano cocido; zucchini cocido | Squash, summer, zucchini, includes skin, cooked, boiled, drained, without salt | 1 taza en rodajas=cup
+Zapallo cocido; zapallo camote, calabaza | Pumpkin, cooked, boiled, drained, without salt | 1 taza=cup
+Zapallo crudo; calabaza cruda | Pumpkin, raw | 1 taza en cubos=cup
+Choclo cocido; maíz, choclo desgranado | Corn, sweet, yellow, cooked, boiled, drained, without salt | 1 choclo mediano=ear, medium; 1 taza desgranado=cup
+Choclo en conserva; maíz en lata | Corn, sweet, yellow, canned, whole kernel, drained solids | 1 taza=cup; 1 cucharada=ml:15
+Brócoli crudo | Broccoli, raw | 1 taza picado=cup chopped
+Brócoli cocido | Broccoli, cooked, boiled, drained, without salt | 1 taza picado=cup, chopped
+Coliflor cruda | Cauliflower, raw | 1 taza picada=cup chopped
+Coliflor cocida | Cauliflower, cooked, boiled, drained, without salt | 1 taza=cup
+Espinaca cruda | Spinach, raw | 1 taza=cup
+Espinaca cocida | Spinach, cooked, boiled, drained, without salt | 1 taza=cup
+Acelga cruda | Chard, swiss, raw | 1 taza=cup
+Acelga cocida | Chard, swiss, cooked, boiled, drained, without salt | 1 taza picada=cup, chopped
+Repollo | Cabbage, raw | 1 taza picado=cup, chopped
+Repollo morado | Cabbage, red, raw | 1 taza picado=cup, chopped
+Repollo cocido | Cabbage, cooked, boiled, drained, without salt | 1 taza=cup
+Betarraga cocida; remolacha | Beets, cooked, boiled, drained | 1 unidad=beet; 1 taza en rodajas=cup, slices
+Betarraga cruda; remolacha cruda | Beets, raw | 1 unidad=beet; 1 taza=cup
+Apio | Celery, raw | 1 tallo mediano=stalk, medium; 1 taza picado=cup, chopped
+Pimentón rojo; morrón, pimiento rojo | Peppers, sweet, red, raw | 1 unidad mediana=medium; 1 taza picado=cup, chopped
+Pimentón verde; pimiento verde | Peppers, sweet, green, raw | 1 unidad mediana=medium; 1 taza picado=cup, chopped
+Ají verde; ají cristal, ají | Peppers, hot chili, green, raw | 1 unidad=pepper
+Ajo | Garlic, raw | 1 diente=clove; 1 cucharadita=tsp
+Champiñón crudo; champiñones, hongos | Mushrooms, white, raw | 1 taza en láminas=cup, pieces or slices; 1 unidad mediana=medium
+Champiñón cocido; champiñones salteados | Mushrooms, white, cooked, boiled, drained, without salt | 1 taza=cup
+Berenjena cocida | Eggplant, cooked, boiled, drained, without salt | 1 taza en cubos=cup
+Espárragos cocidos | Asparagus, cooked, boiled, drained | 1 taza=cup; 4 espárragos=spear*4
+Alcachofa cocida | Artichokes, (globe or french), cooked, boiled, drained, without salt | 1 alcachofa mediana=artichoke, medium
+Porotos verdes cocidos; judías verdes, vainitas | Beans, snap, green, cooked, boiled, drained, without salt | 1 taza=cup
+Arvejas cocidas; guisantes, arvejitas | Peas, green, frozen, cooked, boiled, drained, without salt | 1 taza=cup; 1 cucharada=ml:15
+Habas cocidas | Broadbeans, immature seeds, cooked, boiled, drained, without salt | 1 porción (100 g)=100
+Rabanitos; rábano | Radishes, raw | 1 unidad=medium
+Palmitos en conserva | Hearts of palm, canned | 1 unidad=piece
+Aceitunas negras | Olives, ripe, canned (small-extra large) | 5 aceitunas=large*5; 1 cucharada=tbsp
+Aceitunas verdes | Olives, pickled, canned or bottled, green | 5 aceitunas=olive*5
+Pepinillos | Pickles, cucumber, dill or kosher dill | 1 unidad=spear, small
+Rúcula | Arugula, raw | 1 taza=cup
+Kale | Kale, raw | 1 taza=cup
+Puerro | Leeks, (bulb and lower leaf-portion), raw | 1 unidad=leek; 1 taza picado=cup
+Repollitos de Bruselas | Brussels sprouts, cooked, boiled, drained, without salt | 1 taza=cup
+Cilantro | Coriander (cilantro) leaves, raw | 1 cucharada=ml:15
+Perejil | Parsley, fresh | 1 cucharada=tbsp
+Brotes de alfalfa | Alfalfa seeds, sprouted, raw | 1 taza=cup
+Pimentón asado en conserva | Peppers, sweet, red, canned, solids and liquids | 1 taza=cup
+Verduras mixtas congeladas; mix de verduras | Vegetables, mixed, frozen, cooked, boiled, drained, without salt | 1 taza=cup
+Tomate en conserva; tomate pelado en lata | Tomatoes, red, ripe, canned, packed in tomato juice | 1 taza=cup
+
+## Papas y tubérculos
+Papa cocida; papas, patata | Potatoes, boiled, cooked without skin, flesh, without salt | 1 papa mediana=medium; 1 taza en cubos=cup
+Papa cocida con cáscara | Potatoes, boiled, cooked in skin, flesh, without salt | 1 papa mediana=potato
+Papa al horno | Potatoes, baked, flesh and skin, without salt | 1 papa mediana=potato, medium
+Papa cruda | Potatoes, flesh and skin, raw | 1 papa mediana=potato, medium
+Puré de papas; puré | Potatoes, mashed, home-prepared, whole milk and butter added | 1 taza=cup
+Papas fritas caseras | Potatoes, french fried, all types, salt not added in processing, frozen, oven-heated | 1 porción mediana=100
+Camote al horno; batata | Sweet potato, cooked, baked in skin, flesh, without salt | 1 unidad mediana=medium
+Yuca cocida; mandioca | Cassava, raw | 1 taza=cup
+
+## Legumbres
+Porotos cocidos; porotos tórtola, porotos coscorrón, frijoles, porotos con riendas | Beans, cranberry (roman), mature seeds, cooked, boiled, without salt | 1 taza=cup; 1 plato=ml:300
+Porotos crudos; porotos secos | Beans, cranberry (roman), mature seeds, raw | 1 taza=cup
+Porotos negros cocidos; frijoles negros | Beans, black, mature seeds, cooked, boiled, without salt | 1 taza=cup
+Porotos blancos cocidos | Beans, navy, mature seeds, cooked, boiled, without salt | 1 taza=cup
+Lentejas cocidas | Lentils, mature seeds, cooked, boiled, without salt | 1 taza=cup; 1 plato=ml:300
+Lentejas crudas | Lentils, raw | 1 taza=cup
+Garbanzos cocidos | Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt | 1 taza=cup; 1 plato=ml:300
+Garbanzos crudos | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw | 1 taza=cup
+Tofu firme | Tofu, raw, firm, prepared with calcium sulfate | 1/2 taza=cup*0.5
+Hummus | Hummus, commercial | 1 cucharada=tbsp
+Edamame | Edamame, frozen, prepared | 1 taza=cup
+Soya cocida; porotos de soya | Soybeans, mature cooked, boiled, without salt | 1 taza=cup
+
+## Pan y cereales
+Marraqueta; pan batido, pan francés, pan corriente | Bread, french or vienna (includes sourdough) | 1 marraqueta (aprox. 100 g)=100; 1/2 marraqueta=50
+Hallulla (aprox.); pan hallulla | Rolls, dinner, plain, commercially prepared (includes brown-and-serve) | 1 hallulla (aprox. 100 g)=100; 1/2 hallulla=50
+Pan de molde blanco; pan de molde | Bread, white, commercially prepared (includes soft bread crumbs) | 1 rebanada=slice
+Pan de molde integral; pan integral | Bread, whole-wheat, commercially prepared | 1 rebanada=slice
+Pan pita; pan árabe | Bread, pita, white, enriched | 1 unidad=pita, large; 1 unidad chica=pita, small
+Pan de completo; pan de hot dog, pan de hamburguesa | Rolls, hamburger or hotdog, plain | 1 unidad=roll
+Pan tostado; tostadas | Bread, white, commercially prepared, toasted | 1 rebanada=slice
+Tortilla de harina; wrap, tortilla | Tortillas, ready-to-bake or -fry, flour, refrigerated | 1 unidad=tortilla
+Tortilla de maíz | Tortillas, ready-to-bake or -fry, corn | 1 unidad=tortilla
+Galletas de agua; galletas soda, galletas saladas | Crackers, saltines (includes oyster, soda, soup) | 1 galleta=cracker square
+Galletas de arroz; tortitas de arroz | Snacks, rice cakes, brown rice, plain, unsalted | 1 unidad=cake
+Arroz blanco cocido; arroz graneado | Rice, white, long-grain, regular, enriched, cooked | 1 taza=cup; 1 plato=ml:250
+Arroz integral cocido | Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program) | 1 taza=cup
+Arroz crudo | Rice, white, long-grain, regular, raw, enriched | 1 taza=cup
+Fideos cocidos; tallarines, spaghetti, pasta, fideos | Pasta, cooked, enriched, without added salt | 1 taza=cup; 1 plato=ml:300
+Fideos crudos; pasta seca | Pasta, dry, enriched | 1 porción (80 g)=80
+Fideos integrales cocidos; pasta integral | Pasta, whole-wheat, cooked (Includes foods for USDA's Food Distribution Program) | 1 taza=cup
+Avena; avena tradicional, avena instantánea | Cereals, oats, regular and quick, not fortified, dry | 1/2 taza=cup*0.5; 1 cucharada=ml:15
+Avena cocida; porridge | Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt | 1 taza=cup
+Quínoa cocida; quinua | Quinoa, cooked | 1 taza=cup
+Quínoa cruda | Quinoa, uncooked | 1/4 taza=cup*0.25
+Cuscús cocido | Couscous, cooked | 1 taza=cup
+Mote de trigo (aprox.); mote | Bulgur, cooked | 1 taza=cup
+Harina de trigo | Wheat flour, white, all-purpose, enriched, bleached | 1 taza=cup; 1 cucharada=ml:15
+Maicena; fécula de maíz | Cornstarch | 1 cucharada=ml:15
+Polenta; sémola de maíz, harina de maíz | Cornmeal, degermed, enriched, yellow | 1 taza=cup
+Granola | Cereals ready-to-eat, granola, homemade | 1/2 taza=cup*0.5
+Cereal corn flakes; cereal de maíz | Cereals ready-to-eat, RALSTON Corn Flakes | 1 taza=cup
+Panqueques; crepes | Pancakes, plain, prepared from recipe | 1 unidad=pancake
+Medialuna; croissant | Croissants, butter | 1 unidad mediana=croissant, medium
+Pan amasado (aprox.) | Biscuits, plain or buttermilk, prepared from recipe | 1 unidad (aprox. 100 g)=100
+Sopaipilla (aprox.); sopaipillas | Frybread, made with lard (Navajo) | 1 unidad (aprox. 50 g)=50
+
+## Carnes
+Carne molida 5% grasa; carne molida especial | Beef, ground, 95% lean meat / 5% fat, patty, cooked, broiled | 1 porción (120 g)=120
+Carne molida 10% grasa | Beef, ground, 90% lean meat / 10% fat, patty, cooked, broiled | 1 porción (120 g)=120
+Carne molida 15% grasa | Beef, ground, 85% lean meat / 15% fat, patty, cooked, broiled | 1 porción (120 g)=120
+Carne molida 20% grasa; carne molida corriente | Beef, ground, 80% lean meat / 20% fat, patty, cooked, broiled | 1 porción (120 g)=120
+Carne molida cruda 10% grasa | Beef, ground, 90% lean meat / 10% fat, raw | 1 porción (150 g)=150
+Posta; posta negra, posta rosada, pollo ganso | Beef, round, eye of round roast, boneless, separable lean only, trimmed to 0" fat, select, cooked, roasted | 1 bistec (120 g)=120
+Lomo liso | Beef, short loin, top loin, steak, separable lean and fat, trimmed to 1/8" fat, choice, cooked, grilled | 1 bistec (150 g)=150
+Lomo vetado; entrecot | Beef, rib, eye, small end (ribs 10-12), separable lean and fat, trimmed to 0" fat, choice, cooked, broiled | 1 bistec (150 g)=150
+Filete de vacuno | Beef, tenderloin, steak, separable lean only, trimmed to 1/8" fat, all grades, cooked, broiled | 1 medallón (120 g)=120
+Asado de tira; costillar de vacuno | Beef, rib, shortribs, separable lean and fat, choice, cooked, braised | 1 porción (150 g)=150
+Carne de vacuno (promedio); bistec, carne asada, carne de vacuno | Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8" fat, all grades, cooked | 1 porción (120 g)=120
+Hígado de vacuno | Beef, variety meats and by-products, liver, cooked, braised | 1 porción (100 g)=100
+Chuleta de cerdo | Pork, fresh, loin, center rib (chops), bone-in, separable lean and fat, cooked, broiled | 1 chuleta=chop
+Lomo de cerdo; filete de cerdo | Pork, fresh, loin, tenderloin, separable lean only, cooked, roasted | 1 porción (120 g)=120
+Costillar de cerdo | Pork, fresh, spareribs, separable lean and fat, cooked, braised | 1 porción (150 g)=150
+Pulpa de cerdo | Pork, fresh, shoulder, whole, separable lean only, cooked, roasted | 1 porción (120 g)=120
+Cordero | Lamb, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/4" fat, choice, cooked | 1 porción (120 g)=120
+
+## Aves
+Pechuga de pollo; pollo a la plancha, pechuga asada | Chicken, broilers or fryers, breast, meat only, cooked, roasted | 1/2 pechuga=breast, bone and skin removed*0.5; 1 porción (120 g)=120
+Pechuga de pollo cruda | Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw | 1 porción (150 g)=150
+Trutro de pollo con piel; tuto de pollo | Chicken, broilers or fryers, leg, meat and skin, cooked, roasted | 1 trutro corto=drumstick with skin; 1 trutro largo=thigh with skin
+Trutro de pollo sin piel | Chicken, broilers or fryers, leg, meat only, cooked, roasted | 1 trutro corto=drumstick bone and skin; 1 trutro largo=thigh bone and skin
+Alitas de pollo | Chicken, broilers or fryers, wing, meat and skin, cooked, roasted | 1 alita=piece
+Pollo asado; pollo al horno | Chicken, broilers or fryers, meat and skin, cooked, roasted | 1 cuarto de pollo=chicken*0.25; 1 porción (150 g)=150
+Pollo apanado; pollo frito | Chicken, broilers or fryers, breast, meat and skin, cooked, fried, batter | 1 porción (150 g)=150
+Pavo asado | Turkey, whole, breast, meat only, cooked, roasted | 1 porción (120 g)=120
+
+## Pescados y mariscos
+Salmón | Fish, salmon, Atlantic, farmed, cooked, dry heat | 1 filete (150 g)=150
+Salmón ahumado | Fish, salmon, chinook, smoked | 1 lámina=oz*0.5
+Merluza (aprox.); pescado blanco | Fish, whiting, mixed species, cooked, dry heat | 1 filete (150 g)=150
+Reineta (aprox.); pescado blanco frito | Fish, tilapia, cooked, dry heat | 1 filete (150 g)=150
+Jurel en conserva; jurel en lata | Fish, mackerel, jack, canned, drained solids | 1 taza=cup; 1 porción (100 g)=100
+Atún en agua | Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program) | 1 lata (drenado)=can; 1/2 lata=can*0.5
+Atún en aceite | Fish, tuna, light, canned in oil, drained solids | 1 lata (drenado)=can; 1/2 lata=can*0.5
+Sardinas en aceite | Fish, sardine, Atlantic, canned in oil, drained solids with bone | 1 lata (drenado)=can
+Camarones | Crustaceans, shrimp, mixed species, cooked, moist heat (may contain additives to retain moisture) | 1 porción (100 g)=100
+Choritos; mejillones, cholgas | Mollusks, mussel, blue, cooked, moist heat | 1 porción (100 g)=100
+Almejas; machas | Mollusks, clam, mixed species, cooked, moist heat | 1 porción (100 g)=100
+Calamar | Mollusks, squid, mixed species, raw | 1 porción (100 g)=100
+Calamar frito; rabas | Mollusks, squid, mixed species, cooked, fried | 1 porción (100 g)=100
+Pulpo | Mollusks, octopus, common, cooked, moist heat | 1 porción (100 g)=100
+Kanikama; palitos de surimi | Fish, surimi | 1 palito=17
+
+## Embutidos
+Vienesa; vienesas, salchicha, salchicha tipo viena | Frankfurter, meat | 1 vienesa=serving (1 hot dog)
+Vienesa de pavo | Frankfurter, turkey | 1 vienesa=frankfurter
+Jamón; jamón de cerdo | Ham, sliced, regular (approximately 11% fat) | 1 lámina=slice
+Jamón de pavo; pechuga de pavo laminada | Turkey, white, rotisserie, deli cut | 1 lámina (aprox. 15 g)=15
+Salame | Salami, Italian, pork | 1 lámina (aprox. 10 g)=10
+Longaniza (aprox.); chorizo | Sausage, Italian, pork, mild, cooked, pan-fried | 1 unidad (100 g)=100
+Tocino | Pork, cured, bacon, cooked, baked | 1 lonja=slice
+Mortadela | Mortadella, beef, pork | 1 lámina=slice
+Paté | Pate, liver, not specified, canned | 1 cucharada=tbsp
+
+## Huevos
+Huevo; huevo crudo, huevo entero | Egg, whole, raw, fresh | 1 huevo grande=large; 1 huevo mediano=medium
+Huevo duro; huevo cocido | Egg, whole, cooked, hard-boiled | 1 huevo=large
+Huevo frito | Egg, whole, cooked, fried | 1 huevo=large
+Huevo revuelto; omelette, tortilla de huevo | Egg, whole, cooked, scrambled | 1 huevo=large
+Huevo pochado | Egg, whole, cooked, poached | 1 huevo=large
+Clara de huevo | Egg, white, raw, fresh | 1 clara=large
+Yema de huevo | Egg, yolk, raw, fresh | 1 yema=large
+
+## Lácteos
+Leche entera | Milk, whole, 3.25% milkfat, with added vitamin D | 1 vaso (200 ml)=ml:200; 1 taza (250 ml)=ml:250
+Leche semidescremada (2%) | Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D | 1 vaso (200 ml)=ml:200; 1 taza (250 ml)=ml:250
+Leche semidescremada (1%) | Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D | 1 vaso (200 ml)=ml:200; 1 taza (250 ml)=ml:250
+Leche descremada | Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim) | 1 vaso (200 ml)=ml:200; 1 taza (250 ml)=ml:250
+Leche en polvo entera | Milk, dry, whole, with added vitamin D | 1 cucharada=ml:15
+Leche en polvo descremada | Milk, dry, nonfat, regular, without added vitamin A and vitamin D | 1 cucharada=ml:15
+Leche chocolatada; leche con chocolate | Milk, chocolate, fluid, commercial, reduced fat, with added vitamin A and vitamin D | 1 caja (200 ml)=ml:200
+Bebida de almendras; leche de almendras | Beverages, almond milk, unsweetened, shelf stable | 1 vaso (200 ml)=ml:200
+Bebida de soya; leche de soya | Soymilk, original and vanilla, unfortified | 1 vaso (200 ml)=ml:200
+Yogur natural | Yogurt, plain, whole milk | 1 pote (125 g)=125; 1 taza=cup
+Yogur natural descremado | Yogurt, plain, skim milk | 1 pote (125 g)=125
+Yogur con sabor; yogur batido, yogur de frutilla | Yogurt, fruit, low fat, 10 grams protein per 8 ounce | 1 pote (125 g)=125
+Yogur griego natural | Yogurt, Greek, plain, whole milk | 1 pote (150 g)=150
+Yogur griego descremado | Yogurt, Greek, plain, nonfat (Includes foods for USDA's Food Distribution Program) | 1 pote (150 g)=150
+Queso laminado; queso gauda, queso mantecoso, queso chanco | Cheese, gouda | 1 lámina (20 g)=20
+Quesillo; queso fresco | Cheese, fresh, queso fresco | 1 trozo (30 g)=30
+Queso mozzarella | Cheese, mozzarella, whole milk | 1/4 taza rallado=cup, shredded*0.25
+Queso parmesano | Cheese, parmesan, grated | 1 cucharada=tbsp
+Queso cottage | Cheese, cottage, lowfat, 2% milkfat | 1/2 taza=cup*0.5
+Queso crema | Cheese, cream | 1 cucharada=tbsp
+Queso de cabra | Cheese, goat, soft type | 1 trozo (30 g)=oz
+Ricota | Cheese, ricotta, part skim milk | 1/2 taza=cup*0.5
+Mantequilla | Butter, salted | 1 cucharadita=tbsp*0.333; 1 cucharada=tbsp
+Mantequilla sin sal | Butter, without salt | 1 cucharadita=tbsp*0.333; 1 cucharada=tbsp
+Crema de leche | Cream, fluid, heavy whipping | 1 cucharada=tbsp
+Crema ácida | Cream, sour, cultured | 1 cucharada=tbsp
+Leche condensada | Milk, canned, condensed, sweetened | 1 cucharada=ml:15
+Leche evaporada | Milk, canned, evaporated, with added vitamin D and without added vitamin A | 1 cucharada=ml:15
+Manjar; dulce de leche | Dulce de Leche | 1 cucharada=tbsp; 1 cucharadita=ml:5
+Helado de vainilla; helado | Ice creams, vanilla | 1 bola (1/2 taza)=serving 1/2 cup
+Helado de chocolate | Ice creams, chocolate | 1 bola (1/2 taza)=cup*0.5
+Kéfir | Kefir, lowfat, plain, LIFEWAY | 1 vaso (200 ml)=ml:200
+
+## Aceites y grasas
+Aceite vegetal; aceite de maravilla, aceite de girasol | Oil, sunflower, linoleic, (approx. 65%) | 1 cucharadita=tsp; 1 cucharada=tbsp
+Aceite de oliva | Oil, olive, salad or cooking | 1 cucharadita=tsp; 1 cucharada=tbsp
+Aceite de canola | Oil, canola | 1 cucharadita=tsp; 1 cucharada=tbsp
+Aceite de coco | Oil, coconut | 1 cucharadita=tsp; 1 cucharada=tbsp
+Margarina | Margarine, regular, 80% fat, composite, stick, with salt | 1 cucharadita=tsp; 1 cucharada=tbsp
+Mayonesa | Salad dressing, mayonnaise, regular | 1 cucharadita=tbsp*0.333; 1 cucharada=tbsp; 1 sobre=packet
+Mayonesa light | Salad dressing, mayonnaise, light | 1 cucharada=tbsp
+Manteca | Lard | 1 cucharada=tbsp
+Mantequilla de maní; crema de maní | Peanut butter, smooth style, with salt (Includes foods for USDA's Food Distribution Program) | 1 cucharada=tbsp
+
+## Frutos secos y semillas
+Almendras | Nuts, almonds | 1 puñado (30 g)=30; 10 almendras=almond*10
+Nueces | Nuts, walnuts, english | 1 puñado (30 g)=30; 1 mitad de nuez=oz (14 halves)*0.0714
+Maní sin sal; maní tostado | Peanuts, all types, dry-roasted, without salt | 1 puñado (30 g)=30
+Maní salado | Peanuts, all types, dry-roasted, with salt | 1 puñado (30 g)=30
+Castañas de cajú; anacardos | Nuts, cashew nuts, dry roasted, without salt added | 1 puñado (30 g)=30
+Pistachos | Nuts, pistachio nuts, dry roasted, without salt added | 1 puñado (30 g)=30
+Avellanas | Nuts, hazelnuts or filberts | 1 puñado (30 g)=30
+Castañas cocidas | Nuts, chestnuts, european, boiled and steamed | 1 unidad=10
+Mix de frutos secos | Nuts, mixed nuts, dry roasted, with peanuts, without salt added | 1 puñado (30 g)=30
+Semillas de chía; chía | Seeds, chia seeds, dried | 1 porción (15 g)=15
+Linaza | Seeds, flaxseed | 1 cucharada=tbsp, whole
+Semillas de maravilla; pipas | Seeds, sunflower seed kernels, dried | 1 cucharada=ml:15
+Semillas de zapallo | Seeds, pumpkin and squash seed kernels, dried | 1 cucharada=ml:15
+Sésamo; ajonjolí | Seeds, sesame seeds, whole, dried | 1 cucharada=tbsp
+Coco rallado | Nuts, coconut meat, dried (desiccated), not sweetened | 1 porción (10 g)=10
+
+## Dulces y postres
+Azúcar | Sugars, granulated | 1 cucharadita=tsp; 1 cucharada=tsp*3; 1 sobre=serving packet
+Azúcar flor; azúcar glas | Sugars, powdered | 1 cucharada=tbsp
+Azúcar rubia; azúcar morena | Sugars, brown | 1 cucharadita=tsp
+Miel | Honey | 1 cucharadita=tbsp*0.333; 1 cucharada=tbsp
+Mermelada | Jams and preserves | 1 cucharadita=ml:5; 1 cucharada=tbsp
+Endulzante de sucralosa; sucralosa | Sweeteners, tabletop, sucralose, SPLENDA packets | 1 sobre=serving 1 packet
+Chocolate de leche | Candies, milk chocolate | 1 barra chica (30 g)=30; 1 cuadrito (aprox. 6 g)=6
+Chocolate amargo (70-85%) | Chocolate, dark, 70-85% cacao solids | 1 cuadrito (10 g)=10
+Cacao en polvo sin azúcar | Cocoa, dry powder, unsweetened | 1 cucharada=tbsp
+Gelatina preparada; jalea | Gelatin desserts, dry mix, prepared with water | 1 pote=ml:120
+Gelatina sin azúcar | Gelatin desserts, dry mix, reduced calorie, with aspartame, prepared with water | 1 pote=ml:120
+Galletas rellenas; galletas tipo oreo | Cookies, chocolate sandwich, with creme filling, regular | 1 galleta=cookie
+Galletas de mantequilla; galletas dulces | Cookies, butter, commercially prepared, enriched | 1 galleta=cookie
+Galletas de avena | Cookies, oatmeal, commercially prepared, regular | 1 galleta=cookie, big
+Queque; bizcocho | Cake, pound, commercially prepared, other than all butter, enriched | 1 trozo=piece
+Torta de chocolate | Cake, chocolate, commercially prepared with chocolate frosting, in-store bakery | 1 trozo=piece
+Brownie | Cookies, brownies, commercially prepared | 1 unidad=square, large
+Pie de limón | Pie, lemon meringue, commercially prepared | 1 trozo=piece
+Berlín; donut, dona | Doughnuts, yeast-leavened, glazed, enriched (includes honey buns) | 1 unidad=doughnut, medium
+Calugas; caramelos de leche | Candies, caramels | 1 unidad=piece
+Gomitas | Candies, gumdrops, starch jelly pieces | 10 gomitas=gumdrop, medium*10
+Caramelos duros | Candies, hard | 1 unidad=piece
+Barra de cereal | Snacks, granola bars, hard, plain | 1 barra=bar
+Arroz con leche | Puddings, rice, ready-to-eat | 1 pote=serving 4 oz pudding cup
+Leche asada; flan | Desserts, flan, caramel custard, prepared-from-recipe | 1 pote=ml:120
+
+## Bebidas
+Café; café de grano, café pasado | Beverages, coffee, brewed, prepared with tap water | 1 taza (200 ml)=ml:200
+Café instantáneo preparado; nescafé | Beverages, coffee, instant, regular, prepared with water | 1 taza (200 ml)=ml:200
+Té | Beverages, tea, black, brewed, prepared with tap water | 1 taza (200 ml)=ml:200
+Agüita de hierbas; té de hierbas, infusión | Beverages, tea, herb, other than chamomile, brewed | 1 taza (200 ml)=ml:200
+Bebida cola; coca cola, bebida | Beverages, carbonated, cola, regular | 1 vaso (200 ml)=ml:200; 1 lata (350 ml)=ml:350
+Bebida cola zero; bebida light, bebida sin azúcar | Beverages, carbonated, low calorie, cola or pepper-type, with aspartame, contains caffeine | 1 vaso (200 ml)=ml:200; 1 lata (350 ml)=ml:350
+Bebida de naranja; bebida de fantasía | Beverages, carbonated, orange | 1 vaso (200 ml)=ml:200; 1 lata (350 ml)=ml:350
+Agua tónica | Beverages, carbonated, tonic water | 1 vaso (200 ml)=ml:200
+Néctar de durazno; néctar, jugo envasado | Peach nectar, canned, with added ascorbic acid | 1 vaso (200 ml)=ml:200
+Jugo de manzana | Apple juice, canned or bottled, unsweetened, without added ascorbic acid | 1 vaso (200 ml)=ml:200
+Bebida isotónica | Beverages, COCA-COLA, POWERADE, lemon-lime flavored, ready-to-drink | 1 botella (500 ml)=ml:500
+Bebida energética | Beverages, Energy drink, RED BULL | 1 lata (250 ml)=ml:250
+Bebida energética sin azúcar | Beverages, Energy Drink, sugar free | 1 lata (250 ml)=ml:250
+
+## Alcohol
+Cerveza | Alcoholic beverage, beer, regular, all | 1 lata (350 ml)=ml:350; 1 schop (500 ml)=ml:500
+Cerveza light | Alcoholic beverage, beer, light | 1 lata (350 ml)=ml:350
+Vino tinto | Alcoholic beverage, wine, table, red | 1 copa (150 ml)=ml:150
+Vino blanco | Alcoholic beverage, wine, table, white | 1 copa (150 ml)=ml:150
+Destilado 40° (pisco, ron, vodka, whisky); pisco, ron, vodka, whisky | Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof | 1 corrida (45 ml)=ml:45
+
+## Salsas y condimentos
+Ketchup; kétchup | Catsup | 1 cucharada=tbsp; 1 sobre=packet
+Mostaza | Mustard, prepared, yellow | 1 cucharadita=tsp or 1 packet
+Salsa de tomate; salsa pomarola, salsa para pastas | Sauce, pasta, spaghetti/marinara, ready-to-serve | 1/2 taza=serving 1/2 cup
+Salsa de soya; salsa soja | Soy sauce made from soy and wheat (shoyu) | 1 cucharada=tbsp
+Sal | Salt, table | 1 pizca (aprox. 0,4 g)=0.4; 1 cucharadita=tsp
+Vinagre | Vinegar, cider | 1 cucharada=tbsp
+Salsa barbecue | Sauce, barbecue | 1 cucharada=ml:15
+Caldo en cubo; cubito de caldo | Soup, bouillon cubes and granules, low sodium, dry | 1 cubo=cube
+Caldo de pollo; consomé | Soup, chicken broth, ready-to-serve | 1 taza=cup
+
+## Snacks
+Papas fritas de bolsa; papas chips | Snacks, potato chips, plain, salted | 1 bolsa chica (30 g)=30
+Cabritas; palomitas, popcorn | Snacks, popcorn, air-popped | 1 taza=cup
+Cabritas con aceite | Snacks, popcorn, oil-popped, microwave, regular flavor, no trans fat | 1 taza=cup
+Ramitas; pretzels | Snacks, pretzels, hard, plain, salted | 1 puñado (30 g)=30
+Nachos; tortilla chips | Snacks, tortilla chips, plain, white corn, salted | 1 puñado (30 g)=30
+
+## Comida rápida
+Pizza de queso | Fast Food, Pizza Chain, 14" pizza, cheese topping, regular crust | 1 trozo=slice
+Pizza pepperoni | Fast Food, Pizza Chain, 14" pizza, pepperoni topping, regular crust | 1 trozo=slice
+Hamburguesa simple | Fast foods, hamburger; single, regular patty; plain | 1 unidad=sandwich
+Hamburguesa con queso | Fast foods, cheeseburger; single, regular patty; plain | 1 unidad=sandwich
+Papas fritas de local; papas fritas | Fast foods, potato, french fried in vegetable oil | 1 porción chica=serving small; 1 porción mediana=serving medium; 1 porción grande=serving large
+Nuggets de pollo | Fast foods, chicken tenders | 1 unidad=strip
+Pollo frito de local | Fast Foods, Fried Chicken, Breast, meat and skin and breading | 1 presa=breast, with skin
+
+## Suplementos
+Proteína en polvo (whey) | Beverages, Whey protein powder isolate | 1 scoop (30 g)=30
